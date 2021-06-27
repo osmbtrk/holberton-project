@@ -1,0 +1,145 @@
+.title{
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+.row{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+.card{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+.card.done{
+    cursor: default;
+}
+.card.done:hover{
+    cursor: default;
+    box-shadow: none;
+}
+.card:hover{
+    box-shadow: inset 0px 0px 0px 1px red;
+    box-sizing: border-box;
+}
+.holberton{
+    background-image: url('https://www.holbertonschool.com/holberton-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.html{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.css{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.js{
+    background-image: url('https://i2.wp.com/thebamboocode.com/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.php{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.python{
+    background-image: url('https://www.vhv.rs/dpng/d/442-4428823_python-logo-hd-png-download.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mysql{
+    background-image: url('https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c{
+    background-image: url('https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-hidden{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Right-Facing_Armenian_Eternity_Sign_UC_058D_SVG.svg/1200px-Right-Facing_Armenian_Eternity_Sign_UC_058D_SVG.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.modal-overlay-hidden{
+    display: none;
+}
+.modal-overlay {
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	max-height: 90%;
+	max-width: 90%;
+	min-height: 380px;
+	margin: 0 auto;
+	background: white;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 30px 10px;
+
+}
+.restart {
+    font-family: "Anton", sans-serif;
+    margin: 40px auto;
+    margin-bottom: 120px;
+    padding: 20px 30px;
+    display: block;
+    font-size: 30px;
+    border: none;
+    background: #4d4d4d;
+    background: linear-gradient(#4d4d4d, #222);
+    border: 1px solid #222;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0px 1px 0 black;
+    cursor: pointer;
+
+}
+.restart:hover {
+    background: linear-gradient(#222, black);
+}
+.winner {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    color: #4d4d4d;
+    text-shadow: 0px 3px 0 black;
+}
+.message {
+    text-align: center;
+}
+.message a {
+    text-decoration: none;
+    color: #28afe6;
+    font-weight: bold;
+}
